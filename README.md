@@ -34,7 +34,7 @@ CONGRATULATIONS!! You have just created your genesis.
 *This will create .json files in your existing directory with the genesis information. You will need one of these files to unlock your wallet in the MyCrypto app so you can do the test transaction at the end.*
 
 ## Creating the Nodes for Validation
-1. Open a new Git Bash window. *(It's important that you do not close the previous Git Bash window with the genesis information as you need some information when creating the nodes to finalize your genesis.)*
+1. Open a new Git Bash window. *(It's important that you do not close the previous GitBash window with the genesis information as you need some information when creating the nodes to finalize your genesis.)*
 2. Activate your blockchain enviorment that you created and navigate to the directory where you created the "Blockchain-Tools" folder.
 3. Next we create a new account using the following command:
  - $ ./geth account new -datadir node1
@@ -59,14 +59,15 @@ CONGRATULATIONS!! You have just created your genesis.
     - ./geth --datadir node1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
     - ./geth --datadir node2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock --ipcdisable
 
-  *NOTE: SEALER_ONE_ADDRESS is the Public Address of the Key for Node 1. SEALER_TWO_ADDRESS is the Public Address of the Key for Node 2. SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303 is the enode address of node 1 which can be located when you initialze node 1 (or you can obtain from .json file of the blockchain.*  
+  *NOTE: SEALER_ONE_ADDRESS is the Public Address of the Key for Node 1. SEALER_TWO_ADDRESS is the Public Address of the Key for Node 2. SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303 is the enode address of node 1 which can be located n GitBash when you initialze node 1.*  
 
 2. Make sure you enter the passwords when prompted in GitBash for each node and confirm that the nodes have been unlocked. Once both nodes are unlocked, you should see that there is at least 1 peer connected to each node.
 
 Congratulatons! You are now mining some ETH!
 
 # Test your newly created ETH blockchain network
-1. We will now connect to the newly created ETH blockchain network and send a transaction. Follow these instructions [My Crypto - Network Set-up and Transactions](https://github.com/camdorazio/POA-Development-Chain/blob/main/MyCrypto-network.md))
+1. We will now connect to the newly created ETH blockchain network and send a transaction. Follow these instructions [My Crypto - Network Set-up and Transactions](https://github.com/camdorazio/POA-Development-Chain/blob/main/MyCrypto-network.md)).
+*NOTE: The Chain/Network ID can be found in the "GENESIS_NAME".json file in your "Blockchain-Tools" folder.*
 
 2. Please be patient once you have successfully sent a transaction and it's in "PENDING" state. Average time for the transaction to be confirmed and "SUCCESSFUL". As a baseline, for this test case, it took over 3 hours for my transaction to be "SUCCESSFUL". You need to leave the Git Bash windows for all the nodes running, in mining mode, for the transaction to be confirmed and completed.
 
