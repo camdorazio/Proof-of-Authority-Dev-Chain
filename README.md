@@ -18,7 +18,7 @@ Set-up process:
 3. Next you will receive a series of prompts to create the genesis state. You will select the following options:
  - option 2. Configure new genesis
  - option 1. Create new genesis from scratch
- - optoin 2. Clique - proof-of-authority
+ - option 2. Clique - proof-of-authority
  - "How many seconds should blocks take? *for this example I have used the defaul of 15 seconds.*
  - Which accounts are allowed to seal? *This is where you enter your node 1 and node 2 wallet addresses (i.e. 0x......). You will need to do the Creating the "Nodes for Validation" section below and come back to to fill in the address (IMPORTANT: Do not close this GitBash window!).*
  - - Which accounts should be pre-funded? *This is where you enter your node 1 and node 2 wallet addresses (i.e. 0x......). You will need to do the Creating the "Nodes for Validation" section below and come back to to fill in the address (IMPORTANT: Do not close this GitBash window!).*
