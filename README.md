@@ -49,7 +49,7 @@ CONGRATULATIONS!! You have just created your genesis.
 
 *NOTE: Check your directory tree to ensure your node directory and chaindata and lightchain data sub-directories have been created for each node. This will be important as you will need to access these files later to complete your blockchain set-up and testing.*
 
- - $ ./geth init ethereumking"GENESIS_NAME".json -datadir node2
+ - $ ./geth init "GENESIS_NAME".json -datadir node2
 
 # Blockchain Mining
 ## Let's start mining some ETH!
