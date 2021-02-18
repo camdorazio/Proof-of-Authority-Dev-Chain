@@ -66,7 +66,7 @@ CONGRATULATIONS!! You have just created your genesis.
 Congratulatons! You are now mining some ETH!
 
 # Test your newly created ETH blockchain network
-1. We will now connect to the newly created ETH blockchain network and send a transaction. Follow these instructions [My Crypto - Network Set-up and Transactions](https://github.com/camdorazio/POA-Development-Chain/blob/main/MyCrypto-network.md)).
+1. We will now connect to the newly created ETH blockchain network and send a transaction. Follow these instructions [My Crypto - Network Set-up and Transactions](https://github.com/camdorazio/Proof-of-Authority-Dev-Chain/blob/main/MyCrypto-network.md)).
 *NOTE: The Chain/Network ID can be found in the "GENESIS_NAME".json file in your "Blockchain-Tools" folder.*
 
 2. Please be patient once you have successfully sent a transaction and it's in "PENDING" state. Average time for the transaction to be confirmed and "SUCCESSFUL". As a baseline, for this test case, it took over 3 hours for my transaction to be "SUCCESSFUL". You need to leave the Git Bash windows for all the nodes running, in mining mode, for the transaction to be confirmed and completed.
