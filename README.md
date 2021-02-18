@@ -71,7 +71,7 @@ Congratulatons! You are now mining some ETH!
 
 2. Please be patient once you have successfully sent a transaction and it's in "PENDING" state. Average time for the transaction to be confirmed and "SUCCESSFUL". As a baseline, for this test case, it took over 3 hours for my transaction to be "SUCCESSFUL". You need to leave the Git Bash windows for all the nodes running, in mining mode, for the transaction to be confirmed and completed.
 
-# CONGATULATOINS ON SETTNG UP YOUR OWN PERSONAL ETH BLOCKCHAIN NETWROK!
+# CONGATULATOINS ON SETTNG UP YOUR OWN PERSONAL ETH BLOCKCHAIN NETWORK!
 
 
 
