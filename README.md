@@ -2,13 +2,13 @@
 
 Set-up process:
 - Create a new enviornment for ethereum blockchain
-- Install necessary packages using this guide [Blockchain Installation Guides](https://github.com/camdorazio/POA-Development-Chain/blob/main/blockchain-install-guide.md)
+- Install necessary packages using this guide [Blockchain Installation Guides](https://github.com/camdorazio/Proof-of-Authority-Dev-Chain/blob/main/blockchain-install-guide.md)
 - Bu sure you have MyCrypto app installed as we will need it to send a tranbsaction with our newly created ETH blockchain.
 
 # Creating a Blockchain 
 1. Open an instance of Git Bash. 
-2. Activate you enverionment you created in the Set-up process. (refer to [Blockchain Installation Guides](https://github.com/camdorazio/POA-Development-Chain/blob/main/blockchain-install-guide.md))
-3. Navigate to the directory where you created the "Blockchain-Tools" folder (the directory would have been created when you installed GoEtherum Tools - refer to [Blockchain Installation Guides](https://github.com/camdorazio/POA-Development-Chain/blob/main/blockchain-install-guide.md))
+2. Activate you enverionment you created in the Set-up process. (refer to [Blockchain Installation Guides](https://github.com/camdorazio/Proof-of-Authority-Dev-Chain/blob/main/blockchain-install-guide.md))
+3. Navigate to the directory where you created the "Blockchain-Tools" folder (the directory would have been created when you installed GoEtherum Tools - refer to [Blockchain Installation Guides](https://github.com/camdorazio/Proof-of-Authority-Dev-Chain/blob/main/blockchain-install-guide.md))
 4. Activate puppeth using the following command:
  - $ ./puppeth
 
